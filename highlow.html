@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higher or Lower Game!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="highlow.css">
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO THE HIGHER OR LOWER GAME!</h1>
+            <h2>Where you guess if a computer generated number from 0 to 10 is greater or less than 5!</h2>
+    </header> <br>
+    <section id="game">
+        <h3>Click a button to guess. Everytime you click, a new number generates</h3>
+            <button onclick="higher()" class="gamebutton">Higher!</button> 
+            <button onclick="equal()" class="gamebutton">It is five!</button>
+            <button onclick="lower()" class="gamebutton">Lower!</button>
+            <h4>See if you were correct below!</h4>
+            <p id="correct"></p>
+    </section>
+    <section id="pointarea">
+        <h4>You get a point everytime you get it right, and lose a point when you get it wrong!</h4>
+        <p id="points"></p>
+        <button onclick="restart()">Restart Game</button>
+    </section>
+    <footer>
+        <h6>No copyright</h6>
+        <h6>Made by ShedeurCoder on github.com for a project</h6>
+    </footer>
+        
+<script src="highlow.js"></script>
+</body>
+</html>

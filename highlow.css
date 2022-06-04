@@ -1,0 +1,25 @@
+body {
+    margin: 5px;
+    background-color: dimgray;
+}
+button {
+    border:outset;
+}
+button:active {
+    border:inset;
+}
+header {
+    background-color: #d3d3d3;
+    text-align: center;
+}
+section {
+    background-color: #b9b9b9;
+    padding: 1%;
+    margin-top: 1%;
+}
+#pointarea {
+    margin-bottom: 1%;
+}
+p {
+    font-size: 20px;
+}
